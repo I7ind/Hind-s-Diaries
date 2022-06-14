@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Just Another Hand', cursive;
+}
+
+#logo{
+    height: 60px;
+    width: auto;
+}
+.photo-logo{
+    height: 140px;
+    width: 400px;
+}
+
+/*         Nav-Bar      */
+#main-nav{
+    width: auto;
+    height: 55px;
+    margin-top: 7%;
+	background-color: #edba6e9d;
+    display:flex;
+    justify-content: flex-start;
+    position: static;
+}
+#main-nav {
+	width:auto;
+	height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav p{
+	width:200px;
+	height: 55px;
+    font-size: 30px;
+    text-align: center;
+	line-height: 55px;
+	
+} 
+#main-nav p a {
+    text-decoration: none;
+    color: #fff;
+    display:block;
+	text-transform: uppercase;
+}
+
+#main-nav p a:hover {
+    background-color: #d89c9274;
+    border-radius: 5px;
+	transition:  0.3s;
+}
+
+/*        End Of Nav-Bar         */
+
+#container{
+    display: flex;
+}
+/*        left container         */
+
+#left-div-container {
+    height: 350px;
+    width: 300px;
+    position: static;
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius:  45% 45% 0% 0%;
+    background-image: url(imgs/background6.jpg); 
+
+}
+
+.pargraph{ 
+    height: 300px;
+    width: auto;
+    margin-top: 25%;
+    border-bottom: 2px solid #edba6e9d ;
+    
+}
+.pargraph p span {
+    font-size: 50px;
+    margin-left: -50px;
+    color:  #67787c ;
+
+}
+.pargraph p{
+    font-size: 30px;
+    text-align: center;
+    color: #edba6e9d ;
+
+}
+#bt0 { 
+    margin-top: 5%;
+    
+}
+#bt0 .bt {
+    padding: 10px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 17%;
+    background: #ded6caa1;
+    color: #67787c;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1.5px solid #ded6ca;
+    border-radius: 5px ;
+}
+
+#bt0 .bt:hover {
+    background-color: #d89c9274;
+	transition:  0.3s;
+}
+
+.ad {
+    height: 350px;
+    width: auto;
+    border-radius: 5px;
+    background-image: url(imgs/ice.gif);
+    margin-top: 30px;
+}
+.ad .bt1 {
+    padding: 10px;
+    width: 200px;
+    margin-top: 90%;
+    margin-left: 17%;
+    background: #ded6caa1;
+    color: #67787c;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1.5px solid #ded6ca;
+    border-radius: 5px ;
+}
+
+.bt1:hover {
+    background-color: #d89c9274;
+    border-bottom: 1px solid transparent;
+	transition:  0.3s;
+}
+
+/*       End of left container         */
+
+/*          Right container           */
+
+#right-container{
+    height: 600px;
+    width: 890px;
+    margin-top: 5%;
+    margin-left: 3%;
+    position: static;
+    color: #67787c;
+    
+}
+
+.contact{
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #edba6e9d ;
+    display: flex;
+    justify-content: space-between;
+}
+.contact h1 {
+    font-size: 50px;
+}
+
+.contact ul li {
+    list-style: none;
+    font-size: 18px;
+    border-left: 2px solid #edba6e9d;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-left: -100px;
+}
+
+.smoothie-container{
+    padding: 10px;
+    background-image: url(imgs/line3.jpg);
+
+}
+
+.smoothie-container ul {
+    margin: 5%;
+
+}
+.smoothie-container ul li {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 23px;
+
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo-smooth{
+    height: 240px;
+    width: 260px;
+    margin-top: 30px;
+    border: 2px solid #92937dbd;
+    border-radius: 5px;
+}
+.photo-smooth1 {
+    height: 300px;
+    width: 250px;
+    border: 2px solid #92937dbd;
+    border-radius: 5px;
+}
+
+.smoothie-container ol {
+    margin: 5%;
+
+}
+.smoothie-container ol li {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 23px;
+
+}
+
+#link{
+    height: 250px;
+    width: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+.link-imgs:hover {
+        background-color: #d2d4c297;
+        border-radius: 5px;
+        transition:  0.3s;
+}
+
+.photo-smooth-link {
+    margin-top: 15px;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+#link p {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: #67787c;
+
+}
+
+/*       End of right Container      */
+
+/*              Footer              */
+
+#footer {
+    width: auto;
+    height: 50px;
+    margin-top: 63%;
+	background-color: #edba6e9d;
+    display:flex;
+    justify-content: space-between;
+    position: static;
+}
+#footer p {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+/*        End Of Footer         */
